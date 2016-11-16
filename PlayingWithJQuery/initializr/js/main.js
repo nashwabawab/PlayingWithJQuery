@@ -7,3 +7,11 @@ function unhighlight() {
   $('h1').text('Hello World');
   $('.jumbotron').removeClass('highlight');
 }
+
+function hide() {
+  $('.jumbotron').fadeOut('hide');
+}
+
+function show() {
+  $('.jumbotron').slideDown('hide');
+}
