@@ -15,3 +15,11 @@ function hide() {
 function show() {
   $('.jumbotron').slideDown('hide');
 }
+
+$(document).ready(function() {
+  $('.jumbotron').on('mouseenter', highlight);
+});
+
+$(document).ready(function() {
+  $('.jumbotron').on('mouseleave', highlight);
+});
